@@ -15,17 +15,33 @@
 
 //Exercicio 2
 
-const listaComida =["Pizza", "churrasco", "pudim", "batata", "queijo"]
-console.log(listaComida)
-console.log(`Essas são as minhas comidas preferidas: 
- ${listaComida[0]}
- ${listaComida[1]}
- ${listaComida[2]}
- ${listaComida[3]}
- ${listaComida[4]}`)
+//const listaComida =["Pizza", "churrasco", "pudim", "batata", "queijo"]
+//console.log(listaComida)
+//console.log(`Essas são as minhas comidas preferidas: 
+ //${listaComida[0]}
+// ${listaComida[1]}
+// ${listaComida[2]}
+// ${listaComida[3]}
+ //${listaComida[4]}`)
 
- const comidaPref = prompt("Qual sua comida preferida? ")
+ //const comidaPref = prompt("Qual sua comida preferida? ")
  
- listaComida[1] = comidaPref
- console.log("comidaPref", listaComida)
+ //listaComida[1] = comidaPref
+ //console.log("comidaPref", listaComida)
 
+
+//listaDeTarefas = []
+
+//const tarefa1 = prompt("Digite uma tarefa: ")
+//const tarefa2 = prompt("Digite uma tarefa: ")
+//const tarefa3 = prompt("Digite uma tarefa: ")
+
+//listaDeTarefas.push(tarefa1)
+//listaDeTarefas.push(tarefa2)
+//listaDeTarefas.push(tarefa3)
+
+//console.log(listaDeTarefas)
+
+//const tarefaRealizada = prompt("Digite o indice de uma tarefa realizada: ")
+//listaDeTarefas.splice (tarefaRealizada, 1)
+//console.log (listaDeTarefas)
