@@ -1,0 +1,11 @@
+1 strogonoff 
+2 parmegianna
+3 pizza
+4 churrasco
+5 file de tilapia empanado
+6 frango assado
+7 tortas
+8 pave
+9 acai
+10 sorvete
+
