@@ -17,58 +17,65 @@
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
 
 // EXERCÍCIO 01
-function calculaAreaRetangulo() {
-  let altura = Number(prompt("Qual a altura: "))
-  let largura = Number(prompt("Qual é a largura?"))
-  let area = altura * largura 
+// function calculaAreaRetangulo() {
+//   let altura = Number(prompt("Qual a altura? "))
+//   let largura = Number(prompt("Qual é a largura?"))
+//   let area = altura * largura 
 
-  console.log(area)
+//   console.log(area)
+// }
 
+// // EXERCÍCIO 02
+// // function imprimeIdade() {
+// //  let anoAtual = Number(prompt("Qual ano atual?"))
+// //  let anoNascimento = Number(prompt("Qual ano você nasceu? "))
+// //  let idade = anoAtual - anoNascimento
+// // console.log(idade)
+// }
 
-}
-
-// EXERCÍCIO 02
-function imprimeIdade() {
-  // implemente sua lógica aqui
-
-}
-
-// EXERCÍCIO 03
-function calculaIMC(peso, altura) {
-  // implemente sua lógica aqui
-
-}
+// // EXERCÍCIO 03
+// function calculaIMC(peso, altura) {
+//   let valorImc = peso /(altura*altura)
+//   console.log(valorImc)
+//   return valorImc
+// }
 
 // EXERCÍCIO 04
-function imprimeInformacoesUsuario() {
-  // implemente sua lógica aqui
-  // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
+// function imprimeInformacoesUsuario() {
+//  let seuNome = prompt("Qual seu nome? ")
+//  let suaIdade = Number(prompt("Qual sua idade? "))
+//  let seuEmail = prompt("Qual seu email? ")
 
-}
+//  console.log(`Meu nome é ${seuNome}, tenho ${suaIdade} anos, e o meu email é ${seuEmail}.`)
+// }
 
 // EXERCÍCIO 05
-function imprimeTresCoresFavoritas() {
-  // implemente sua lógica aqui
-
-}
+// function imprimeTresCoresFavoritas() {
+//   let corUm = prompt("Qual sua cor? ")
+//   let corDois = prompt("Qual sua segunda cor preferida? ")
+//   let corTres = prompt("Qual sua terceira cor preferida? ")
+//   let coresPreferidas = [corUm, corDois, corTres]
+  
+//   console.log(coresPreferidas)
+//   }
 
 // EXERCÍCIO 06
-function retornaStringEmMaiuscula(string) {
-  // implemente sua lógica aqui
-
-}
+// function retornaStringEmMaiuscula(string) {
+//   return string.toUpperCase()
+ 
+// }
 
 // EXERCÍCIO 07
-function calculaIngressosEspetaculo(custo, valorIngresso) {
-  // implemente sua lógica aqui
+// function calculaIngressosEspetaculo(custo, valorIngresso) {
+//   let custoIngresso = (custo/valorIngresso)
+//   return custoIngresso
 
-}
 
 // EXERCÍCIO 08
-function checaStringsMesmoTamanho(string1, string2) {
-  // implemente sua lógica aqui
-
-}
+// function checaStringsMesmoTamanho(string1, string2) {
+//   let compare = string1.length === string2.length
+// return compare
+// }
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
