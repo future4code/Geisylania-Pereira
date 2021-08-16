@@ -135,6 +135,10 @@ function checaAnoBissexto(ano) {
 
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
-  // implemente sua lógica aqui
+const idade = rompt("Voce tem maias de 18 anos? ")
+const escolaridade = prompet("Possui ensino medio? ")
+const disponibilidade = prompt("Vode tem disponabilidade")
 
+const cond1 = (idade >= 18 === 18 )
+const cond2 = (escolaridade  )
 }
