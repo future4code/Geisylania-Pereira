@@ -15,15 +15,46 @@
 
 //Exercicio 1
 
-const animais = Number(prompt("Quantos animais voce tem? "))
+// const animais = Number(prompt("Quantos animais voce tem? "))
 
- if (animais === 0){
-  console.log("Que pena! Você pode adotar um pet! ")
- } else if (animais > 0){
-     console.log(animais)
- }for ( let i = 0; i<= animais; i++) {
-   const nomesPets = prompt("Qual o nome deles?")
- console.log(`Tenho, ${animais}, são eles ${nomesPets}`);
+//  if (animais === 0) {
+//   console.log("Que pena! Você pode adotar um pet! ")
+//  }
+//  if (animais > 0) {
+//    let arrayAnimais = []
+//    for (let i = 0 ; i < animais ; i++) {
+//    arrayAnimais.push (prompt("Qual nome deles"))
+//   }
+//   console.log(arrayAnimais)
+//  }
 
- }
+// const arrayOriginal = [10, 98, 50, 26, 30]
 
+// function imprimirValorArray (arrayOriginal) {
+//    for (let valor of arrayOriginal){
+//    console.log(valor)
+//   }
+// }
+// imprimirValorArray(arrayOriginal)
+
+// const arrayOriginal = [10, 98, 50, 26, 30]
+// function imprimirValorArray (arrayOriginal) {
+//    for (let valor of arrayOriginal){
+//    console.log(valor/10)
+//    }
+//  }
+//  imprimirValorArray(arrayOriginal)
+
+// const arrayOriginal = [10, 98, 50, 26, 30, 1]
+
+//   function imprimirValoresPares (arrayOriginal) {
+//   let arrayNumerosPares = []
+//   for (let valor of arrayOriginal){
+//     if(valor % 2 === 0){
+//      arrayNumerosPares.push(valor)
+//     } 
+  
+//   }
+//   console.log(arrayNumerosPares)
+// }
+// imprimirValoresPares(arrayOriginal)
