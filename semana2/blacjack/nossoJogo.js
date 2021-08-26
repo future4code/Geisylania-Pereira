@@ -30,10 +30,13 @@ if(confirm("Você quer jogar ? ")) {
 
  }else if (jogadorSoma < adversarioSoma){
  console.log("O adversario ganhou!")
-   
+ 
+ if (jogadorSoma === adversarioSoma) {
+  console.log("Empate")
+ }
 }else {
  console.log("O jogo finalizou" ) 
- }
+}
 }
  
 
