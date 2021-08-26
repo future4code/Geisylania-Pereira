@@ -1,0 +1,13 @@
+'''function calculaPrecoTotal(quantidade) {
+ let maca = 1.30
+ let macaPromo = 1.00
+ let valor = 
+  
+ if (quantidade < 12) {
+  valor = maca * quantidade
+}else if (quantidade >= 12) {
+  valor = macaPromo * quantidade
+}
+ return valor
+}
+'''
