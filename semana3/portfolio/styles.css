@@ -1,0 +1,11 @@
+body {
+color: rgb(196, 31, 31);
+block-size: auto;
+}
+
+
+@import http://127.0.0.1:5500/meuperfil.html
+
+head {
+
+}
