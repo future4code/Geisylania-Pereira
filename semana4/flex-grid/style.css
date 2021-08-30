@@ -1,0 +1,90 @@
+.nav {
+display: flex;
+background: mediumvioletred;
+height: 80px;
+align-items: center;
+padding: 80px; 
+color: black;
+justify-content: space-between;
+overflow: hidden;
+flex-wrap: wrap;
+}
+.cards {
+    width: 80%;
+    max-width: 200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 60px 0;
+    gap: 2em;
+}
+.card{
+    padding-bottom: 2.5em;
+    width: 100;
+    border-radius: 1em;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction:column;
+}
+.card{
+    padding-bottom: 2.5em;
+    width: 100;
+    border-radius: 1em;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction:column;
+}
+.card{
+    padding-bottom: 2.5em;
+    width: 100;
+    border-radius: 1em;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction:column;
+}
+.card{
+    padding-bottom: 2.5em;
+    width: 100;
+    border-radius: 1em;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction:column;
+}
+.card{
+    padding-bottom: 2.5em;
+    width: 100;
+    border-radius: 1em;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction:column;
+}
+.card{
+    padding-bottom: 2.5em;
+    width: 100;
+    border-radius: 1em;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction:column;
+}
+    .card:nth-of-type(1) {
+        --image: url(./img/bolos-decorados-para-festas-fotos-inspiradoras-48.jpg);
+        background-size: 0vmax;
+    }
+.card_img{
+    background-image: var(--image);
+    height: 250px;
+    background-position: center top;
+    background-size: cover;
+    border-radius: 1em em  0 0;
+}
+.card:nth-of-type(1) {
+    --image: url(./img/bolos-decorados-para-festas-fotos-inspiradoras-48.jpg);
+    background-size: 0vmax;
+}
+
+footer{
+    background-color: mediumvioletred;
+    text-align: center;
+    padding: 20px;
+    color: black;
+} 
