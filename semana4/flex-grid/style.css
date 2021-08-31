@@ -1,90 +1,72 @@
-.nav {
-display: flex;
-background: mediumvioletred;
-height: 80px;
-align-items: center;
-padding: 80px; 
-color: black;
-justify-content: space-between;
-overflow: hidden;
-flex-wrap: wrap;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.cards {
-    width: 80%;
-    max-width: 200px;
-    margin: 0 auto;
+body{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    padding: 60px 0;
-    gap: 2em;
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 400px 1fr;
 }
-.card{
-    padding-bottom: 2.5em;
-    width: 100;
-    border-radius: 1em;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+.icone-e-texto{
     display: flex;
-    flex-direction:column;
+    align-items: center;
 }
-.card{
-    padding-bottom: 2.5em;
-    width: 100;
-    border-radius: 1em;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-    display: flex;
-    flex-direction:column;
-}
-.card{
-    padding-bottom: 2.5em;
-    width: 100;
-    border-radius: 1em;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-    display: flex;
-    flex-direction:column;
-}
-.card{
-    padding-bottom: 2.5em;
-    width: 100;
-    border-radius: 1em;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-    display: flex;
-    flex-direction:column;
-}
-.card{
-    padding-bottom: 2.5em;
-    width: 100;
-    border-radius: 1em;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-    display: flex;
-    flex-direction:column;
-}
-.card{
-    padding-bottom: 2.5em;
-    width: 100;
-    border-radius: 1em;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-    display: flex;
-    flex-direction:column;
-}
-    .card:nth-of-type(1) {
-        --image: url(./img/bolos-decorados-para-festas-fotos-inspiradoras-48.jpg);
-        background-size: 0vmax;
-    }
-.card_img{
-    background-image: var(--image);
-    height: 250px;
-    background-position: center top;
-    background-size: cover;
-    border-radius: 1em em  0 0;
-}
-.card:nth-of-type(1) {
-    --image: url(./img/bolos-decorados-para-festas-fotos-inspiradoras-48.jpg);
-    background-size: 0vmax;
+.icone{
+    height: 30px;
+    width: 30px;
 }
 
+header{
+    display: flex;
+    background-color: mediumvioletred;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding: 0px 20px;
+    grid-column: 1/-1;
+}
+
+nav{
+    background-color: #F2D0E0; 
+    padding: 10px;
+}
+.botao-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-produto{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 5px darkgrey;
+}
+
+.imagem-bolo{
+    width: 100%;
+}
+
+main{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 10px;
+    margin: 20px;
+}
+
+
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: mediumvioletred;
     text-align: center;
     padding: 20px;
     color: black;
+    grid-column: 1/-1;
 } 
