@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        var nome = prompt("Qual seu nome");
+        var altura = prompt("Qual sua altura?");
+        var peso = prompt("Qual seu peso?");
+        imc=peso/(altura*altura);
+    
+        if (imc < 18.5){
+            document.write (nome  + "  segundo seu IMC você está abaixo do peso.");
+        }else if (imc >18.5 && imc < 25){
+            document.write (nome +    "  segundo seu IMC você está com peso ideal. Parabéns!!!");
+        }else if (imc >25 && imc < 30){
+            document.write (nome + "  segundo seu IMC você está levemente acima do peso.");
+        }else if (imc > 35){
+            document.write (nome +  "  segundo seu IMC você está com obesidade morbida. Cuidado!!");
+        }      
+    </script>
+
+</body>
+</html>
