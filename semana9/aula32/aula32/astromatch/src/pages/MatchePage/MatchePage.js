@@ -1,19 +1,28 @@
 import axios from "axios"
 import React, { useState } from "react"
-import { ProfileListitem } from "../../componentes/ProfileListitem/ProfileListitem"
 import { MatcheContainer } from "./styled"
 
 
 export const MatchePage = () => {
-    const [MatcheList, setMatcheList] = useState ([])
+    const [matcheList, setMatcheList] = useState ([])
 
-    const getMatchesList = () => {
-        
+        const getMatchesList = () => {
+            const getMatchesLis = () => {
+                axios
+                .get('https://us-central1-missao-newton.cloudfunctions.net/astroMatch/geisy-lopes-maryan/matches')
+                .then((res) => {
+                    setMatcheList(res.data.setMatcheList)
+                })
+                .catch((err) => {
+                    alert(err)
+                })
+            }
     }
+
     return (
         <div>
         <MatcheContainer>
-         </MatcheContainer>
+        </MatcheContainer>
         
         </div>
     )

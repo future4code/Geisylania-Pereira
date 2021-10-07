@@ -1,19 +1,31 @@
 import React from "react"
 import { HomeContainer, Profile, ProfileImage } from './styled'
-
+import { ProfileListitem } from "../../componentes/ProfileListitem/ProfileListitem"
+import { MatchePage } from "../MatchePage/MatchePage"
+import { useEffect, useState } from "react/cjs/react.development"
+import axios from "axios"
 
 export const HomePage = () => {
+
+    const [home, setHome] = useState ({})
+    const getHomeToChoose = () => {
+        axios
+        .get('https://us-central1-missao-newton.cloudfunctions.net/astroMatch/geisy-lopes-maryan/choose-person')
+        .then((res) => {
+            setHome(res.data.home)
+        })
+        .catch((err) => {
+            alert(err)
+        })
+    }
+    useEffect(() => {
+    getHomeToChoose()
+    },[])
     return (
+        
         <HomeContainer>
             <h1>Astromatches</h1>
-            <Profile>
-                <ProfileImage src={"https://i.picsum.photos/id/1012/3973/2639.jpg?hmac=s2eybz51lnKy2ZHkE2wsgc6S81fVD1W2NKYOSh8bzDc"}/>
-                    <h1> Geisy</h1>
-                <div>
-                    <button>X</button>
-                    <button>♥</button>
-                </div>
-            </Profile>
+            <ProfileListitem/>
         </HomeContainer>
     )
 }
