@@ -1,0 +1,17 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"node .index.js",
+    "ex3": "node exercicio3.js",
+    "ex2": "node exercicio2.js",
+    "ex1": "node exercicio1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "keywords": [],
+  "author": "Geisylania",
+  "license": "ISC",
+  "description": ""
+}
